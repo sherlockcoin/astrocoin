@@ -1,7 +1,7 @@
 TEMPLATE = app
 TARGET = astrocoin-qt
 macx:TARGET = "Astrocoin-Qt"
-VERSION = 0.8.6.1
+VERSION = 0.9.0.0
 INCLUDEPATH += src src/json src/qt
 QT += core gui network
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets

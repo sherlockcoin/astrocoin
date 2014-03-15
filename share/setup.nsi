@@ -5,7 +5,7 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 0.8.6.1
+!define VERSION 0.9.0.0
 !define COMPANY "Astrocoin project"
 !define URL http://www.astrocoin.org/
 
@@ -45,13 +45,13 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile astrocoin-0.8.6.1-win32-setup.exe
+OutFile astrocoin-0.9.0.0-win32-setup.exe
 InstallDir $PROGRAMFILES\Astrocoin
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
-VIProductVersion 0.8.6.1
+VIProductVersion 0.9.0.0
 VIAddVersionKey ProductName Astrocoin
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
